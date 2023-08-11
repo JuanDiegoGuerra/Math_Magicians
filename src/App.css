@@ -39,3 +39,20 @@
 .calc-0 {
   grid-column: span 2;
 }
+
+.loading-quote,
+.error-on-fetch {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.quote {
+  font-size: 20px;
+  width: 50%;
+  font-weight: 500;
+}
+
+.author {
+  font-weight: 600;
+  font-size: 20px;
+}
