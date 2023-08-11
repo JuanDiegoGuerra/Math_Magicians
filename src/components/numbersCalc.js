@@ -16,4 +16,5 @@ export default NumbersCalc;
 
 NumbersCalc.propTypes = {
   number: PropTypes.number.isRequired,
+  handleClick: PropTypes.func.isRequired,
 };

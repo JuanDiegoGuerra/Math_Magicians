@@ -23,19 +23,19 @@ const Calculator = () => {
       <CalcOperator operator="+/-" handleClick={handleClick} />
       <CalcOperator operator="%" handleClick={handleClick} />
       <CalcOperator operator="÷" handleClick={handleClick} />
-      <CalcNumber number={7} handleClick={handleClick} />
-      <CalcNumber number={8} handleClick={handleClick} />
-      <CalcNumber number={9} handleClick={handleClick} />
+      <NumbersCalc number={7} handleClick={handleClick} />
+      <NumbersCalc number={8} handleClick={handleClick} />
+      <NumbersCalc number={9} handleClick={handleClick} />
       <CalcOperator operator="x" handleClick={handleClick} />
-      <CalcNumber number={4} handleClick={handleClick} />
-      <CalcNumber number={5} handleClick={handleClick} />
-      <CalcNumber number={6} handleClick={handleClick} />
+      <NumbersCalc number={4} handleClick={handleClick} />
+      <NumbersCalc number={5} handleClick={handleClick} />
+      <NumbersCalc number={6} handleClick={handleClick} />
       <CalcOperator operator="-" handleClick={handleClick} />
-      <CalcNumber number={1} handleClick={handleClick} />
-      <CalcNumber number={2} handleClick={handleClick} />
-      <CalcNumber number={3} handleClick={handleClick} />
+      <NumbersCalc number={1} handleClick={handleClick} />
+      <NumbersCalc number={2} handleClick={handleClick} />
+      <NumbersCalc number={3} handleClick={handleClick} />
       <CalcOperator operator="+" handleClick={handleClick} />
-      <CalcNumber number={0} handleClick={handleClick} />
+      <NumbersCalc number={0} handleClick={handleClick} />
       <CalcOperator className="calc-number calc-0" operator="." handleClick={handleClick} />
       <CalcOperator operator="=" handleClick={handleClick} />
     </div>
