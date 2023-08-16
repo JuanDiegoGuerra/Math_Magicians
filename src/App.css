@@ -5,8 +5,14 @@
   font-family: system-ui, sans-serif;
 }
 
+body {
+  background-color: rgb(74, 78, 94);
+  color: white;
+}
+
 .grid-container {
-  box-shadow: 5px 5px 10px rgb(167, 167, 167);
+  min-width: 450px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.541);
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
@@ -20,13 +26,15 @@
   padding: 20px;
   font-size: 30px;
   grid-column: span 1;
-  border: 1px solid rgb(184, 184, 184);
+  border: 1px solid rgb(74, 78, 94);
   background-color: rgb(233, 233, 233);
   cursor: pointer;
+  color: black;
 }
 
 .calc-op {
   background-color: orange;
+  color: black;
 }
 
 .calc-screen {
@@ -47,7 +55,7 @@
 }
 
 .quote {
-  font-size: 20px;
+  font-size: 25px;
   width: 50%;
   font-weight: 500;
 }
@@ -55,4 +63,34 @@
 .author {
   font-weight: 600;
   font-size: 20px;
+}
+
+.container {
+  width: 100%;
+  display: flex;
+  place-content: center;
+  padding: 0 150px;
+  margin-top: 40px;
+}
+
+.home-container {
+  flex-direction: column;
+  gap: 30px;
+  margin-bottom: auto;
+}
+
+.calc-container {
+  justify-content: space-around;
+}
+
+.section-title {
+  font-size: 40px;
+}
+
+.section-description {
+  font-size: 18px;
+}
+
+.quote-container {
+  margin-bottom: auto;
 }

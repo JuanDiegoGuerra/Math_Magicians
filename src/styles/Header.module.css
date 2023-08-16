@@ -1,0 +1,35 @@
+.header {
+  padding: 30px 200px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgb(74, 78, 94);
+  color: white;
+  border-bottom: 3px solid white;
+}
+
+.header h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.nav {
+  display: flex;
+  gap: 2px;
+  list-style: none;
+  background-color: white;
+}
+
+.listitem {
+  background-color: rgb(74, 78, 94);
+  padding: 7px 30px;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  font-weight: 600;
+}
+
+.active {
+  color: orange;
+}
