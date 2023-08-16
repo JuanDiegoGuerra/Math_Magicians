@@ -1,0 +1,13 @@
+.footer {
+  padding: 20px 200px;
+  display: flex;
+  place-content: center;
+  color: white;
+  background-color: rgb(74, 78, 94);
+  border-top: 3px solid white;
+}
+
+.copy {
+  font-weight: 400;
+  font-style: italic;
+}
