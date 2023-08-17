@@ -1,5 +1,5 @@
 import { render, fireEvent } from '@testing-library/react';
-import NumbersCalc from '../../components/NumbersCalc';
+import NumbersCalc from '../../components/NumbersCalc.js';
 
 describe('NumbersCalc component', () => {
   const onClickMock = jest.fn();
