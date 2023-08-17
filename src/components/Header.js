@@ -6,7 +6,7 @@ const Header = () => (
     <h1>MathMagicians</h1>
     <ul className={styles.nav}>
       <li className={styles.listitem}>
-      <NavLink className={styles.link} to="/">
+        <NavLink className={styles.link} to="/">
           Home
         </NavLink>
       </li>
