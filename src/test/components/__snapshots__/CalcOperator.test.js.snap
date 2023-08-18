@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The CalcOperator component Matches the snapShot 1`] = `
+<div
+  className="calc-number"
+  onClick={[Function]}
+  onKeyDown={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  AC
+</div>
+`;

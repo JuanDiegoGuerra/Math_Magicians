@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NumbersCalc component should renders correctly 1`] = `
+<div>
+  <div
+    class="calc-number calc-2"
+    role="button"
+    tabindex="0"
+  >
+    2
+  </div>
+</div>
+`;

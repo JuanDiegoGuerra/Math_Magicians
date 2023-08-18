@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`The Footer Matches the snapShot 1`] = `
+<footer
+  className="footer"
+  data-testid="footer-element"
+>
+  <h3
+    className="copy"
+  >
+    © 2023 JD Guerra. All rights reserved.
+  </h3>
+</footer>
+`;

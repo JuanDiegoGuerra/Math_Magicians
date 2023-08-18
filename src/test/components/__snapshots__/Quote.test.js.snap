@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Quote Renders correctly 1`] = `
+<div>
+  <p
+    class="loading-quote"
+  >
+    Loading...
+  </p>
+</div>
+`;
